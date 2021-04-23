@@ -37,6 +37,11 @@ body {
 #bgcolorjoe {
     background-color: #FF0000;
 }
+#textjoe{
+    font-family: verdana;
+    font-size: 20px;
+    /* text-align: center; */
+}
 
 /* Dylan's page */
 #bgdylan {
@@ -45,20 +50,30 @@ body {
 
 #textdylan{
         font-family: verdana;
-        font-size: 50px;
+        font-size: 20px;
         /* text-align: center; */
     }
-    p.dylan {
+    /* p.dylan {
         font-family: verdana;
         font-size: 50px;
-    }
+    } */
 
 /* Ethan's page */
 #bgethan {
     background-color: rgb(136, 125, 66);
 }
+#textethan{
+    font-family: verdana;
+    font-size: 20px;
+    /* text-align: center; */
+}
 
 /* Noah's page */
 #bgnoah {
     background-color: rgb(74, 136, 79);
+}
+#textethan{
+    font-family: verdana;
+    font-size: 20px;
+    /* text-align: center; */
 }
