@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-/* Home Page */
+/* Home Page (don't touch)*/
 body {
     background-color: rgb(70, 144, 168);
 }
-/* Nav bar */
+/* Nav bar (don't touch)*/
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,7 +28,7 @@ body {
     color: black;
   }
   
-  /* .topnav a.active {
+  /* .topnav a.active { (don't touch)
     background-color: #4c77af;
     color: white;
   } */
