@@ -35,11 +35,11 @@ body {
 
 /* Joe's page */
 #bgcolorjoe {
-    background-color: #FF0000;
+    background-color: #C90016;
 }
 /* text for page */
 #textjoe{ 
-    font-family: verdana;
+    font-family: comic-sans-ms;
     font-size: 20px;
     /* text-align: center; */
 }
