@@ -37,7 +37,8 @@ body {
 #bgcolorjoe {
     background-color: #FF0000;
 }
-#textjoe{
+/* text for page */
+#textjoe{ 
     font-family: verdana;
     font-size: 20px;
     /* text-align: center; */
@@ -47,7 +48,7 @@ body {
 #bgdylan {
     background-color: rgb(4, 191, 253);
 }
-
+/* text for page */
 #textdylan{
         font-family: verdana;
         font-size: 20px;
@@ -62,6 +63,7 @@ body {
 #bgethan {
     background-color: rgb(136, 125, 66);
 }
+/* text for page */
 #textethan{
     font-family: verdana;
     font-size: 20px;
@@ -72,6 +74,7 @@ body {
 #bgnoah {
     background-color: rgb(74, 136, 79);
 }
+/* text for page */
 #textethan{
     font-family: verdana;
     font-size: 20px;
