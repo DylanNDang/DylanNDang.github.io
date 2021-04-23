@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-/* Somehow this is broken if anyone know how to fix this then please do */
+/* Home Page */
 body {
     background-color: lightblue;
 }
-
+/* Nav bar */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +33,7 @@ body {
     color: white;
   }
 
-/* Joe */
+/* Joe's page */
 #bgcolorjoe {
     background-color: #FF0000;
 }
@@ -41,17 +41,17 @@ li, a, p {
     font-family: verdana;
 	font-size: 20px;
 }
-/* Dylan */
+/* Dylan's page */
 #bgdylan {
     background-color: rgb(4, 191, 253);
 }
 
-/* Ethan */
+/* Ethan's page */
 #bgethan {
     background-color: rgb(136, 125, 66);
 }
 
-/* Noah */
+/* Noah's page */
 #bgnoah {
     background-color: rgb(74, 136, 79);
 }
