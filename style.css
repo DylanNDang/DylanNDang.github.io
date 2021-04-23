@@ -28,10 +28,10 @@ body {
     color: black;
   }
   
-  .topnav a.active {
+  /* .topnav a.active {
     background-color: #4c77af;
     color: white;
-  }
+  } */
 
 /* Joe's page */
 #bgcolorjoe {
