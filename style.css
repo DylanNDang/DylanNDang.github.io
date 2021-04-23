@@ -37,14 +37,16 @@ body {
 #bgcolorjoe {
     background-color: #FF0000;
 }
-li, a, p {
-    font-family: verdana;
-	font-size: 20px;
-}
+
 /* Dylan's page */
 #bgdylan {
     background-color: rgb(4, 191, 253);
 }
+
+#textdylan{
+        font-family: verdana;
+        font-size: 20px;
+    }
 
 /* Ethan's page */
 #bgethan {
