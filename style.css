@@ -46,10 +46,17 @@ body {
     margin-right: 150px;
     margin-bottom: 10px;
 }
-
+/* These next two things I added for everyone to show how external CSS can be used. */
 table {
-					border: solid purple;
+    	border: solid purple;
 }
+
+ul {
+	list-style-image: url('pokeball.gif');
+	padding: 1;
+}
+
+/* End of what Joe did */
 
 /* Dylan's page */
 #bgdylan {
