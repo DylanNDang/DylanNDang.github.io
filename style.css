@@ -41,6 +41,10 @@ body {
 #textjoe{ 
     font-family: "Comic Sans MS", sans-serif;
     color: #FFFFFF;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 150px;
+    margin-bottom: 5px;
 }
 
 /* Dylan's page */
