@@ -33,7 +33,7 @@ body {
     color: white;
   } */
 
-/* Joe's page */
+/* Joe's page, this section is all done by Joe */
 #bgcolorjoe {
     background-color: #C90016;
 }
@@ -46,6 +46,11 @@ body {
     margin-right: 150px;
     margin-bottom: 10px;
 }
+
+table {
+    border-collapse: collapse;
+}
+
 
 /* Dylan's page */
 #bgdylan {
