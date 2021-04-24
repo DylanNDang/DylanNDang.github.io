@@ -52,7 +52,7 @@ table {
 }
 
 ul {
-	list-style-image: url('pokeball.gif');
+	list-style-type: square;
 	padding: 1;
 }
 
