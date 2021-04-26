@@ -87,7 +87,13 @@ ul {
 
 /* Noah's page */
 #bgnoah {
-    background-color: rgb(74, 136, 79);
+    background-color: #d2b48c;
+    
+}
+table{
+    display: block;
+    margin:auto;
+
 }
 /* text for page */
 #textethan{
