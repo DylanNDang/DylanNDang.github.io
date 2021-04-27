@@ -6,12 +6,13 @@ body {
 /* Nav bar (don't touch)*/
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .topnav {
     overflow: hidden;
     background-color: #333;
+
   }
   
   .topnav a {
@@ -93,7 +94,7 @@ ul {
 table{
     display: block;
     margin:auto;
-
+    box-shadow: 10px 10px 15px #4b2e83;
 }
 /* text for page */
 #textethan{
