@@ -6,13 +6,12 @@ body {
 /* Nav bar (don't touch)*/
 body {
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .topnav {
     overflow: hidden;
     background-color: #333;
-
   }
   
   .topnav a {
