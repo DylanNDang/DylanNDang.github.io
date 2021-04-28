@@ -74,7 +74,7 @@ ul {
     body {
         background-color: #232323;
     }
-    
+    /* gltch effects 1 */
     .glitch {
         font: {
             size: 8.125em;
@@ -117,7 +117,7 @@ ul {
             }
         }
     }
-    
+    /* gltch effects 2 */
     @media only screen and (max-width: 400px) {
         .glitch {
             font-size: 3em;
@@ -262,11 +262,11 @@ ul {
       }
     }
 
-
     /* p.dylan {
         font-family: verdana;
         font-size: 25px;
     } */
+/* End of Dylan's page */
 
 /* Ethan's page */
 #bgethan {
