@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100');
 /* Home Page*/
+/* Mark Comment: you've got the body selector appearing mulitple times in this .css file. when you link to this .css file, all of the body sections will apply, and any of the later body sections that specify the same property will overwrite previous property values.*/
 body {
     background-color: #DDCEE0;
 }
@@ -75,7 +76,9 @@ ul {
         background-color: #232323;
     }
     /* gltch effects 1 */
+    /* Mark Comment: unless you're using a spec I'm not aware of, you can't nest style selectors within other style selectors. Did you copy and paste this from somewhere, and was it using an extension to vanilla CSS? */
     .glitch {
+
         font: {
             size: 8.125em;
             family: 'Raleway', sans-serif;
