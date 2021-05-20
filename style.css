@@ -60,16 +60,86 @@ ul {
 
 /* End of what Joe did */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+/* Home Page*/
+/* Mark Comment: you've got the body selector appearing mulitple times in this .css file. when you link to this .css file, all of the body sections will apply, and any of the later body sections that specify the same property will overwrite previous property values.*/
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/723262.gif");
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+    .topnav a.active { (don't touch)
+    background-color: #4c77af;
+    color: white;
+  } */
+
+
 /* Dylan's page */
+
+/* Bootstrap start */
+.container {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius:.25rem;
+}
+.row {
+    padding:2rem 1rem;
+	margin-bottom:2rem;
+	background-color:rgb(53, 63, 211);
+	border-radius:.3rem
+}
+.col-sm-3 {
+    padding:2rem 1rem;
+	margin-bottom:2rem;
+	background-color:rgb(99, 101, 131);
+	border-radius:.3rem
+}
+/* Bootstrap end */
+
+/* Flexbox start */
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+/* Flexbox end */
+
+
 #bgdylan {
-    background-color: rgb(4, 191, 253);
+    /* background-color: rgb(103, 27, 190); */
 }
 /* text for page */
 #textdylan{
-        font-family: verdana;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-        /* text-align: center; */
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+/* text-align: center; */
     }
 
     body {
