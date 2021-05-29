@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+/* Home Page*/
+/* Mark Comment: you've got the body selector appearing mulitple times in this .css file. when you link to this .css file, all of the body sections will apply, and any of the later body sections that specify the same property will overwrite previous property values.*/
+
+body {
+    background-image: url("https://i.pinimg.com/originals/ba/ac/73/baac73e96f568f7a3b3f8adc7324fc8b.gif?q=60");
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+    .topnav a.active { (don't touch)
+    background-color: #4c77af;
+    color: white;
+  } */
+
+
+/* Dylan's page */
+
+/* Bootstrap start */
+.container {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius:.25rem;
+}
+.row {
+    padding:2rem 1rem;
+	margin-bottom:2rem;
+	background-color:rgb(53, 63, 211);
+	border-radius:.3rem
+}
+.col-sm-3 {
+    padding:2rem 1rem;
+	margin-bottom:2rem;
+	background-color:rgb(99, 101, 131);
+	border-radius:.3rem
+}
+/* Bootstrap end */
+
+/* Flexbox start */
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+/* Flexbox end */
+
+
+#bgdylan {
+    /* background-color: rgb(103, 27, 190); */
+}
+/* text for page */
+#textdylan{
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+/* text-align: center; */
+    }
+
+    body {
+        background-color: #232323;
+    }
+    /* gltch effects 1 */
+    /* Mark Comment: unless you're using a spec I'm not aware of, you can't nest style selectors within other style selectors. Did you copy and paste this from somewhere, and was it using an extension to vanilla CSS? */
+    .glitch {
+
+        font: {
+            size: 8.125em;
+            family: 'Raleway', sans-serif;
+            weight: 700;
+        }
+        text-decoration: none;
+        text-transform: uppercase;
+        /* position: absolute;
+        top: 50%;
+        left: 50%; */
+        transform: translate(-50%, -50%);
+        margin: 0;
+        color: #fff;
+        letter-spacing: 5px;
+        
+        &:before, &:after {
+            display: block;
+            content: attr(data-glitch);
+            text-transform: uppercase;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            opacity: .8;
+        } &:after {
+            color: #f0f;
+            z-index: -2;
+        } &:before {
+            color: #0ff;
+            z-index: -1;
+        }
+        &:hover {
+            &:before {
+                animation: glitch .3s cubic-bezier(.25, .46, .45, .94) both 5
+            }
+            &:after {
+                animation: glitch .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+            }
+        }
+    }
+    /* gltch effects 2 */
+    @media only screen and (max-width: 400px) {
+        .glitch {
+            font-size: 3em;
+        }
+    }
+    
+    
+    @keyframes glitch {
+        0% {
+            transform: translate(0)
+        }
+        20% {
+            transform: translate(-5px, 5px)
+        }
+        40% {
+            transform: translate(-5px, -5px)
+        }
+        60% {
+            transform: translate(5px, 5px)
+        }
+        80% {
+            transform: translate(5px, -5px)
+        }
+        to {
+            transform: translate(0)
+        }
+    }
+
+    html, body, h1 {
+        padding: 0;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    #app {
+        background: rgb(10,10,10);
+        /* height: 100vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+    }
+    
+    #wrapper {
+         text-align: center;
+    }
+    
+    .sub {
+        color: rgb(100,220,220);
+        letter-spacing: 1em;
+    }
+    
+    /*Here's the meat and potatoes. */
+    
+    /* Our mixin positions a copy of our text
+    directly on our existing text, while
+    also setting content to the appropriate
+    text set in the data-text attribute. */
+    @mixin glitchCopy { 
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+    }
+    
+    .glitch {
+        position: relative;
+        color: white;
+        font-size: 4em;
+        letter-spacing: .5em;
+        /* Animation provies a slight random skew. Check bottom of doc
+        for more information on how to random skew. */
+        animation: glitch-skew 1s infinite linear alternate-reverse;
+        
+        /* Creates a copy before our text.  */
+        &::before{
+            /* Duplicates our text with the mixin. */
+            @include glitchCopy;
+            /* Scoots text slightly to the left for the color offset. */
+            left: 2px;
+            /* Creates the color 'shadow' that happens on the glitch. */
+            text-shadow: -2px 0 #ff00c1;
+            /* Creates an initial clip for our glitch. This works in
+            a typical top,right,bottom,left fashion and creates a mask
+            to only show a certain part of the glitch at a time. */
+            clip: rect(44px, 450px, 56px, 0);
+            /* Runs our glitch-anim defined below to run in a 5s loop, infinitely,
+            with an alternating animation to keep things fresh. */
+            animation: glitch-anim 5s infinite linear alternate-reverse;
+        }
+        
+        /* Creates a copy after our text. Note comments from ::before. */
+        &::after {
+            @include glitchCopy;
+            left: -2px;
+            text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
+            animation: glitch-anim2 1s infinite linear alternate-reverse;
+        }
+    }
+    
+    /* Creates an animation with 20 steaps. For each step, it calculates 
+    a percentage for the specific step. It then generates a random clip
+    box to be used for the random glitch effect. Also adds a very subtle
+    skew to change the 'thickness' of the glitch.*/
+    @keyframes glitch-anim {
+      $steps: 20;
+      @for $i from 0 through $steps {
+        #{percentage($i*(1/$steps))} {
+          clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                transform: skew((random(100) / 100) + deg);
+        }
+      }
+    }
+    
+    /*Same deal, just duplicated for ultra randomness. */
+    @keyframes glitch-anim2 {
+      $steps: 20;
+      @for $i from 0 through $steps {
+        #{percentage($i*(1/$steps))} {
+          clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                transform: skew((random(100) / 100) + deg);
+        }
+      }
+    }
+    
+    /* Does the same deal as before, but now only skews. Used for main text. */
+    @keyframes glitch-skew {
+      $steps: 10;
+      @for $i from 0 through $steps {
+        #{percentage($i*(1/$steps))} {
+          transform: skew((random(10) - 5) + deg);
+        }
+      }
+    }
+
+    /* p.dylan {
+        font-family: verdana;
+        font-size: 25px;
+    } */
+
+/* End of Dylan's page */
+
