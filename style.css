@@ -5,6 +5,8 @@
 
 body {
     background-image: url("https://i.pinimg.com/originals/ba/ac/73/baac73e96f568f7a3b3f8adc7324fc8b.gif?q=60");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
