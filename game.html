@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Website </title>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="description" content="">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="style.scss">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+			<link rel="script" href="script.js"/>
+		</head>
+
+        <body>
+			
+			<div class="topnav">
+				<!--Mark Comment 5/23: Usually the class active is reserved for whichever is the current page so in this case it should be applied to the third link.-->
+				<a class="active" href="index.html">Home</a>
+				<a href="anime.html">Anime Memes</a>
+				<a href="game.html">Game Memes</a>
+			</div>
+			
+			<span id="textdylan">
+
+				<a href="#" class="glitch" data-glitch="MEMES">MEMES</a>				
+				<hr>
+                <div id="app">
+                    <div id="wrapper">
+						
+                    </div>
+                </div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+				<div class="row">
+					<div class="column">
+					  <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/472/284/3a8.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" width="170" height="242" alt="Pokemon">
+					</div>
+					<div class="column">
+					  <img src="https://manofmany.com/wp-content/uploads/2020/10/Best-Among-Us-Memes-6.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" width="225" height="150" alt="Among us">
+					</div>
+					</div>
+					<div class="column">
+					  <img src="https://i.redd.it/q5d5ji6ptdc51.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="129.25" height="85.375" alt="Nier automata">
+					</div>
+					<div class="column">
+					  <img src="https://i.pinimg.com/736x/d5/52/ea/d552eaf09a7e64b3d0aeeb10c739a342.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" width="180" height="121.75"alt="Yakuza">
+					</div>
+				  </div>
+				  
+				  <!-- The Modal/Lightbox -->
+				  <div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+				  
+					  <div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/472/284/3a8.jpg" class="center" width="340" height="484" alt="Pokemon">
+					  </div>
+				  
+					  <div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="https://manofmany.com/wp-content/uploads/2020/10/Best-Among-Us-Memes-6.jpg" width="900" height="600" alt="Among us">
+					  </div>
+				  
+					  <div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="https://i.redd.it/q5d5ji6ptdc51.png" width="1034" height="683" alt="Nier automata">
+					  </div>
+				  
+					  <div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="https://i.pinimg.com/736x/d5/52/ea/d552eaf09a7e64b3d0aeeb10c739a342.jpg" width="720" height="487"alt="Yakuza">
+					</div>
+					  </div>
+				  
+					  <!-- Next/previous controls -->
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				  
+					  <!-- Caption text -->
+					  <div class="caption-container">
+						<p id="caption"></p>
+					  </div>
+				  
+					  <!-- Thumbnail image controls -->
+					  <div class="column">
+						<img class="demo" src="https://i.kym-cdn.com/photos/images/newsfeed/001/472/284/3a8.jpg" onclick="currentSlide(1)" width="170" height="242" alt="Pokemon">
+					  </div>
+				  
+					  <div class="column">
+						<img class="demo" src="https://manofmany.com/wp-content/uploads/2020/10/Best-Among-Us-Memes-6.jpg" onclick="currentSlide(2)" width="225" height="150" alt="Among us">
+					  </div>
+				  
+					  <div class="column">
+						<img class="demo" src="https://i.redd.it/q5d5ji6ptdc51.png" onclick="currentSlide(3)" width="129.25" height="85.375" alt="Nier automata">
+					  </div>
+				  
+					  <div class="column">
+						<img class="demo" src="https://i.pinimg.com/736x/d5/52/ea/d552eaf09a7e64b3d0aeeb10c739a342.jpg" onclick="currentSlide(4)"width="180" height="121.75"alt="Yakuza">
+					  </div>
+					</div>
+				  </div>
+				<!-- end of lightbox -->
+				
+				<div class="container">
+					<div class="row">
+
+					<div class="col-sm-3">
+						nhdfxsnjxfdsn
+					</div>
+				</div>
+
+			</div>
+
+			</span>
+			<audio src="MUSIC.mp3" autoplay loop></audio>
+			<script src="script.js"></script>
+
+		</body>	
+
+	</html>
