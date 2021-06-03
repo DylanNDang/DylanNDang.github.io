@@ -3,7 +3,7 @@
 /* Home Page*/
 /* Mark Comment: you've got the body selector appearing mulitple times in this .css file. when you link to this .css file, all of the body sections will apply, and any of the later body sections that specify the same property will overwrite previous property values.*/
 
-  body {
+  .body {
     background-image: url("https://i.pinimg.com/originals/ba/ac/73/baac73e96f568f7a3b3f8adc7324fc8b.gif?q=60");
     background-repeat: no-repeat;
     background-attachment: fixed;
