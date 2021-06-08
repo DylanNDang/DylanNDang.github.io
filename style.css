@@ -51,7 +51,7 @@
     color: white;
   } */ */
 
-
+  /* Lightbox */
   .row > .column {
     padding: 0 8px;
   }
@@ -71,6 +71,7 @@
 
   .thumbnail {
     width: 90%;
+    position: center;
   }
   
   /* The Modal (background) */
