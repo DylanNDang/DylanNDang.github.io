@@ -50,7 +50,12 @@
     background-color: #4c77af;
     color: white;
   } */ */
+/* 
+/*Lightbox */
 
+  .thumbnail {
+    padding: 15px
+  }
 
   .row > .column {
     padding: 0 8px;
