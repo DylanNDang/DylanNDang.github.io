@@ -50,13 +50,7 @@
     background-color: #4c77af;
     color: white;
   } */ */
-/* 
-/*Lightbox */
 
-  .thumbnail {
-    width: 25%;
-    padding: 15px
-  }
 
   .row > .column {
     padding: 0 8px;
@@ -72,6 +66,11 @@
   .column {
     float: left;
     width: 25%;
+    padding: 14px;
+  }
+
+  .thumbnail {
+    width: 90%;
   }
   
   /* The Modal (background) */
